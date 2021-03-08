@@ -24,3 +24,15 @@ def getCurrencies(userIn):
 
 def roundValue(value):
     return "{:.{}f}".format(float(value),2)
+
+def printIntro():
+    print('---------')
+    print('*dk-crypto*')
+    print('---------')
+    print('Nomics Cryptocurrency API')
+    print('> https://p.nomics.com/cryptocurrency-bitcoin-api <')
+    print('Get your own free API key today!')
+    print('---------')
+    print('github.com/dknific')
+    print('All currency values retreived in USD. (Sorry!)')
+    print('---------\n\n')
